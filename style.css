@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+  color: darkcyan
+}
+
+img {
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+h4 {
+  font-family: Verdana;
+  text-align: center;
+}
+
+.full-page {
+  padding-bottom: 0;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  background-color: #36688D;
+}
+
+.final-border {
+  margin: 6px;
+  background-color: whitesmoke;
+  border: 6px solid #F49F05;
+}
+
+.timeline {
+  min-height: 20px;
+  padding: 19px;
+  float: left;
+}
+
+.quote {
+  text-align: center;
+  font-family: Lucida Sans;
+  font-size: 90%;
+}
+
+.timeline-note {
+  max-width: 760px;
+  padding: 20px;
+  margin: 0 auto;
+  clear: both;
+  display: block;
+  font-family: "Lato", sans-serif;
+}
+
+.left-img {
+  margin-right: 15px;
+  float: left;
+  margin-top: 10px;
+  border-radius: 0%;
+}
+
+.years {
+  font-size: 25px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.description {
+    font-size: 16px;
+    margin-top: 0px;
+    font-family: Lucida Sans;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
