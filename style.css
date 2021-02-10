@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  color: darkcyan
+  color: darkcyan;
 }
 
 img {
@@ -13,7 +13,7 @@ img {
 }
 
 h4 {
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 
@@ -40,17 +40,17 @@ h4 {
 
 .quote {
   text-align: center;
-  font-family: Lucida Sans;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 90%;
 }
 
 .timeline-note {
   max-width: 760px;
   padding: 20px;
-  margin: 0 auto;
+  margin: auto;
   clear: both;
   display: block;
-  font-family: Sans-serif;
+  font-family: sans-serif;
 }
 
 .left-img {
@@ -62,22 +62,22 @@ h4 {
 
 .years {
   font-size: 25px;
-  padding-top: 0px;
-  margin-top: 0px;
+  padding-top: 0;
+  margin-top: 0;
   margin-bottom: 5px;
   text-align: left;
 }
 
 .description {
-    font-size: 16px;
-    margin-top: 0px;
-    font-family: Lucida Sans;
+  font-size: 16px;
+  margin-top: 0;
+  font-family: Lucida Sans;
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
