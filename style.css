@@ -1,6 +1,18 @@
-h1 {
+.header {
+  position: -webkit-sticky;
+  position: fixed;
+  min-width: 400px;
+  top: 0;
+  left: 20px;
+  background-color: whitesmoke;
   text-align: center;
   color: darkcyan;
+  font-size: 400%;
+  padding-left: 440px;
+  padding-right: 440px;
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  border: 2px solid whitesmoke;
 }
 
 img {
@@ -10,6 +22,7 @@ img {
   margin-right: auto;
   max-width: 100%;
   height: auto;
+  margin-top: 130px;
 }
 
 h4 {
@@ -42,6 +55,8 @@ h4 {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 90%;
+  max-width: 760px;
+  margin: 0 auto;
 }
 
 .timeline-note {
@@ -83,10 +98,9 @@ p {
 }
 
 .timeline-header {
-font-size: 30px;
-padding-top: 0;
-padding: 10px;
-margin-top: 0;
-margin-bottom: 5px;
-text-align: left;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: left;
 }
